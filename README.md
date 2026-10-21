@@ -26,6 +26,7 @@ git --version
 **Εναλλακτικά, με Git:**
 
 ```powershell
+mkdir lab-03-minecraft-web
 git clone https://github.com/devbymidnight/lab-03-minecraft-web.git
 cd lab-03-minecraft-web
 code .
