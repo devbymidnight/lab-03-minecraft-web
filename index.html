@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ΑΣΚΗΣΗ HTML: άλλαξε τον τίτλο της καρτέλας και την περιγραφή. -->
+  <title>Emerald Valley | Minecraft Server</title>
+  <meta name="description" content="Γνώρισε τον κόσμο του Emerald Valley: Survival, Economy και Events με την παρέα σου." />
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="header">
+    <!-- ΑΣΚΗΣΗ HTML: άλλαξε το όνομα εδώ, στο hero και στο footer. -->
+    <a class="brand" href="#home"><img src="./assets/logo.svg" width="36" height="36" alt="" /> Emerald Valley</a>
+    <nav aria-label="Κύρια πλοήγηση"><a href="#home">Αρχική</a><a href="#features">Ο κόσμος μας</a><a href="#join">Σύνδεση</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">Ο επόμενος κόσμος της παρέας σου</p>
+        <h1 id="hero-title">Emerald<br />Valley</h1>
+        <!-- ΑΣΚΗΣΗ HTML: γράψε το δικό σου μήνυμα καλωσορίσματος. -->
+        <p class="welcome">Κάθε block, μια ιδέα.<br />Κάθε περιπέτεια, καλύτερη με παρέα.</p>
+        <p class="hero-description">Χτίσε τη βάση σου, εξερεύνησε και δώσε ζωή στον δικό σου κόσμο.</p>
+        <a class="button" href="#join">Πώς θα μπεις στον server</a>
+        <div class="ip-line"><span>Server IP</span><code class="server-ip"></code><button class="copy-link" data-copy type="button">Copy IP</button></div>
+        <p class="copy-status" role="status" aria-live="polite"></p>
+      </div>
+      <div class="world-caption">Survival / Economy / Events</div>
+    </section>
+    <section id="features" class="section" aria-labelledby="features-title">
+      <div class="section-heading"><p class="eyebrow">Τι θα ανακαλύψεις</p><h2 id="features-title">Ένας κόσμος. Πολλές ιδέες.</h2><p>Διάλεξε τον δικό σου τρόπο παιχνιδιού.</p></div>
+      <!-- ΑΣΚΗΣΗ HTML: άλλαξε τις περιγραφές των τριών features. -->
+      <div class="features">
+        <article><span class="feature-icon" aria-hidden="true">▤</span><h3>Survival</h3><p>Μάζεψε πόρους, φτιάξε εργαλεία και χτίσε μια βάση που θα αντέξει την πρώτη νύχτα.</p></article>
+        <article><span class="feature-icon" aria-hidden="true">◆</span><h3>Economy</h3><p>Οργάνωσε το δικό σου shop και αντάλλαξε υλικά με άλλους παίκτες μέσα στο παιχνίδι.</p></article>
+        <article><span class="feature-icon" aria-hidden="true">⚑</span><h3>Events</h3><p>Πάρε μέρος σε build challenges και ομαδικές αποστολές με την παρέα σου.</p></article>
+      </div>
+    </section>
+    <section id="join" class="section join" aria-labelledby="join-title">
+      <div><p class="eyebrow">Η περιπέτεια αρχίζει εδώ</p><h2 id="join-title">Η παρέα σου σε περιμένει.</h2><p>Οδηγίες για Minecraft Java Edition.<br />Χρησιμοποίησε την έκδοση που υποστηρίζει ο δικός σου server.</p>
+      <div class="join-address"><span>Server address</span><code class="server-ip"></code><button class="button" data-copy type="button">Copy IP</button></div>
+      <p class="copy-status" role="status" aria-live="polite"></p></div>
+      <ol class="steps"><li><strong>Άνοιξε το Minecraft</strong><span>Επίλεξε Multiplayer.</span></li><li><strong>Πρόσθεσε τον server</strong><span>Πάτησε Add Server και συμπλήρωσε όνομα και Server Address.</span></li><li><strong>Μπες στον κόσμο</strong><span>Πάτησε Done, διάλεξε τον server και μετά Join Server.</span></li></ol>
+      <p class="demo-notice">Εκπαιδευτικό παράδειγμα: το play.emerald.example δεν συνδέεται σε πραγματικό Minecraft server. Αντικατάστησέ το με διεύθυνση δικού σου server.</p>
+    </section>
+  </main>
+  <footer><div><strong>Emerald Valley</strong><p>© <span id="year"></span> Emerald Valley. Εκπαιδευτικό project.</p></div><div><p>Discord: πρόσθεσε εδώ το invite της κοινότητάς σου.</p><small>Ανεπίσημο εκπαιδευτικό παράδειγμα. Δεν συνδέεται με τη Mojang ή τη Microsoft.</small></div></footer>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>

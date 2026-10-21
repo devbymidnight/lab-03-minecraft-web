@@ -1,0 +1,2 @@
+Οι εικόνες hero.svg, hero-night.svg και logo.svg είναι πρωτότυπα διαδικαστικά vector γραφικά που δημιουργήθηκαν για αυτό το εκπαιδευτικό πακέτο. Διατίθενται με CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Δεν περιέχουν επίσημα Minecraft screenshots, textures ή logos. Minecraft, Mojang και Microsoft είναι εμπορικά σήματα των αντίστοιχων κατόχων τους.
